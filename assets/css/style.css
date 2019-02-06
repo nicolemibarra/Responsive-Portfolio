@@ -225,3 +225,89 @@ input[type=submit] {
     padding: 10px 30px;
     cursor: pointer;
 }
+
+/* media queries */
+@media screen and (max-width: 980px) {
+    header {
+        position: fixed;
+        top: 0;
+    }
+    
+    #logo {
+        width: 100%;
+        position: center;
+    }
+    
+    nav {
+        width: 100%;
+        text-align: center;
+    }
+    
+    body {
+        margin-top: 200px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .social {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        position: fixed;
+        top: 0;
+    }
+    
+    #logo {
+        width: 100%;
+        position: center;
+    }
+    
+    nav {
+        width: 100%;
+        text-align: center;
+    }
+    
+    body {
+        margin-top: 200px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .social {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 640px) {    
+    header {
+        position: fixed;
+        top: 0;
+    }
+    
+    #logo {
+        width: 100%;
+        position: center;
+    }
+    
+    nav {
+        width: 100%;
+        text-align: center;
+    }
+    
+    body {
+        margin-top: 200px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .social {
+        width: 25%;
+    }
+}
+
+    
+
+    
